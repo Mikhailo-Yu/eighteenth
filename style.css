@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__button {
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: aqua;
+    border-radius: 40px;
+    padding: 10px;
+    border: 2px solid blue;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.picture__img {
+    max-height: 88vh;
+    border-radius: 25px;
+}
